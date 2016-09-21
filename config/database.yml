@@ -6,3 +6,6 @@ test:
   adapter: postgresql
   database: prelaunchr_test
   host: localhost
+
+production:
+  url: <%= ENV['ec2-54-221-246-85.compute-1.amazonaws.com'] %>
