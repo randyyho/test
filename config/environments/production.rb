@@ -64,6 +64,7 @@ Prelaunchr::Application.configure do
 
   config.action_mailer.default_url_options = { :host => ENV['DEFAULT_MAILER_HOST'] }
 
+#added for Heroku, to get rid of secret key base error
   config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
   # Log the query plan for queries taking more than this (works
