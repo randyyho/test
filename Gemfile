@@ -8,6 +8,7 @@ gem 'devise', '~> 3.2'
 gem 'pg'
 gem 'rails', '4.2.5.2'
 gem 'unicorn'
+gem 'gibbon', '~> 2.2', '>= 2.2.3' #Using Gibbon to install Mailchimp with Rails
 
 
 # Gems used only for assets and not required
